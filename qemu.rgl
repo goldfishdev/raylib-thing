@@ -1,0 +1,26 @@
+#
+# rgl layout text file (v4.0) - raygui layout file generated using rGuiLayout
+#
+# Number of controls:     15
+#
+# Ref. window:    r <x> <y> <width> <height>
+# Anchor info:    a <id> <name> <posx> <posy> <enabled>
+# Control info:   c <id> <type> <name> <rectangle> <anchor_id> <text>
+#
+r 0 40 -1 -1
+a 001 anchor01 712 256 1
+c 000 0 WindowBox000 0 0 408 208 1 WinQemuGUI
+c 001 4 Label001 8 32 120 24 1 QEMU folder path:
+c 002 12 TextBox002 8 56 120 24 1 
+c 003 11 DropdownBox003 144 56 120 24 1 ARM;i386/x86-64;MIPS;PowerPC
+c 004 4 Label004 144 32 120 24 1 Platform:
+c 005 12 TextBox005 280 56 120 24 1 
+c 006 4 Label006 280 32 120 24 1 Disc image:
+c 007 4 Label007 144 88 120 24 1 CPU:
+c 008 11 DropdownBox008 144 112 120 24 1 486;core2duo;pentium;qemu64;base
+c 009 4 Label009 144 144 120 24 1 Memory (M or G):
+c 010 12 TextBox010 144 168 120 24 1 
+c 011 4 Label011 280 88 120 24 1 Name:
+c 012 12 TextBox012 280 112 120 24 1 
+c 013 5 Button013 280 168 120 24 1 Run!
+c 014 5 Button014 8 168 120 24 1 Github
